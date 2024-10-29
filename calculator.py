@@ -19,7 +19,7 @@ def count_total_in_all_file(folder_path, program_type):
                     print(f'Below is file that matched in {cur_folder_level} level: ')
                     levelList.append(cur_folder_level)
                 tell_level_time = 1
-                print(f'{file_path} has {lines} lines without whitespace line !!')
+                print(f'    {file_path} has {lines} lines without whitespace line !!')
                 total_lines += lines
     return total_lines
             
