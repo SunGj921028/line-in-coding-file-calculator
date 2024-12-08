@@ -41,5 +41,6 @@ if os.path.isfile(folder_path):  # 如果是檔案
 elif os.path.isdir(folder_path):  # 如果是資料夾
     # 計算資料夾內符合條件的檔案總行數
     total_lines = count_total_in_all_file(folder_path, program_type)
+    print(f"資料夾 {folder_path} 內符合條件的檔案總行數: {total_lines} 行")    
 else:
     print("無法找到指定的檔案或資料夾。請確認路徑是否正確。")
