@@ -3,7 +3,7 @@ This is a tiny-project for calculating the total line of the coding file in a fo
 
 ## Usage
 - 輸入
-```py
+```python
 python calculator.py
 ```
 - 輸入想要計算的檔名或是資料夾的路徑名稱（例如：calculator.py, C:\Users\User\Desktop\git-repo\newtest）
